@@ -1,6 +1,6 @@
 Link to GitHub repository: https://github.com/ST10477696-Hloniphani/The-Quiz-Tech-App
 
-Link to Youtube Video: https://youtu.be/3X_aEC9vCr8?si=HTkqHxxqDLwVK5yI
+Link to Youtube Video: 
 
 App Report: 1. App Objective
 QuizTech is an Android learning app utilizing IT quizzes built on the Kotlin platform. The purpose of these questions-for-the-user is to test the basic knowledge of computers and information technology through interactive, picture-based True/False questions.
