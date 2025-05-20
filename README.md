@@ -1,4 +1,4 @@
-Link to GitHub repository: https://github.com/ST10477696-Hloniphani/Meal-Suggester-App
+Link to GitHub repository: https://github.com/ST10477696-Hloniphani/The-Quiz-Tech-App
 
 Link to Youtube Video: https://youtu.be/3X_aEC9vCr8?si=HTkqHxxqDLwVK5yI
 
@@ -6,7 +6,11 @@ Report of App: The application that I made is meant for a friend. They require t
 
 
 Images and Screenshots from app: 
-![image alt](https://github.com/ST10477696-Hloniphani/Meal-Suggester-App/blob/a29c058d1c888cab69ec29e0ee2698cb9c114048/Screenshot%202025-04-01%20142154.png)
-![image alt](https://github.com/ST10477696-Hloniphani/Meal-Suggester-App/blob/a29c058d1c888cab69ec29e0ee2698cb9c114048/Screenshot%202025-04-02%20151305.png)
-![image alt](https://github.com/ST10477696-Hloniphani/Meal-Suggester-App/blob/a29c058d1c888cab69ec29e0ee2698cb9c114048/Screenshot%202025-04-02%20151332.png)
-![image alt](https://github.com/ST10477696-Hloniphani/Meal-Suggester-App/blob/a29c058d1c888cab69ec29e0ee2698cb9c114048/appbackground.jpg)
+![image alt](https://github.com/ST10477696-Hloniphani/The-Quiz-Tech-App/blob/534b343fca604b0afe6cf64d0aea76b336d5e95a/screenshot1.png)
+![image alt](https://github.com/ST10477696-Hloniphani/The-Quiz-Tech-App/blob/534b343fca604b0afe6cf64d0aea76b336d5e95a/screenshot2.png)
+![image alt](https://github.com/ST10477696-Hloniphani/The-Quiz-Tech-App/blob/534b343fca604b0afe6cf64d0aea76b336d5e95a/screenshot3.png)
+![image alt](https://github.com/ST10477696-Hloniphani/The-Quiz-Tech-App/blob/534b343fca604b0afe6cf64d0aea76b336d5e95a/screenshot4.png)
+![image alt](https://github.com/ST10477696-Hloniphani/The-Quiz-Tech-App/blob/534b343fca604b0afe6cf64d0aea76b336d5e95a/screenshot5.png)
+![image alt](https://github.com/ST10477696-Hloniphani/The-Quiz-Tech-App/blob/534b343fca604b0afe6cf64d0aea76b336d5e95a/screenshot6.png)
+![image alt](https://github.com/ST10477696-Hloniphani/The-Quiz-Tech-App/blob/534b343fca604b0afe6cf64d0aea76b336d5e95a/screenshot7.png)
+![image alt](https://github.com/ST10477696-Hloniphani/The-Quiz-Tech-App/blob/534b343fca604b0afe6cf64d0aea76b336d5e95a/screenshot8.png)
