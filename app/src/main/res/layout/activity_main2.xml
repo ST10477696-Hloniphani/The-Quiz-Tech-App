@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+1.
+backiee, 2024. 3D Hexagonal White Geometry Pattern.
+[online] Available at:
+<https://backiee.com/wallpaper/3d-hexagonal-white-geometry-pattern/298857>
+[Accessed 02 May 2025].
+2.
+Vectors, 2025. Hi-tech digital circuit board. futuristic AI pad and electrical lines connected on blue lighting background Pro Vector.
+[online] Available at:
+<https://www.vecteezy.com/vector-art/9750414-hi-tech-digital-circuit-board-futuristic-ai-pad-and-electrical-lines-connected-on-blue-lighting-background>
+[Accessed 02 May 2025].
+
+-->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/backgroundquiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/btnTrue"
+        android:layout_width="168dp"
+        android:layout_height="58dp"
+        android:text="True"
+        app:cornerRadius="12dp"
+        android:backgroundTint="@color/Blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.719" />
+
+    <Button
+        android:id="@+id/btnFalse"
+        android:layout_width="168dp"
+        android:layout_height="58dp"
+        android:text="False"
+        app:cornerRadius="12dp"
+        android:backgroundTint="@color/Blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.719" />
+
+    <Button
+        android:id="@+id/btnNextQ"
+        android:layout_width="383dp"
+        android:layout_height="58dp"
+        android:text="Next Question"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cornerRadius="12dp"
+        android:backgroundTint="@color/Blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.805" />
+
+    <Button
+        android:id="@+id/btnScore"
+        android:layout_width="383dp"
+        android:layout_height="58dp"
+        android:text="Score"
+        app:cornerRadius="12dp"
+        android:backgroundTint="@color/Blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.891" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <TextView
+        android:id="@+id/txtStarQ"
+        android:layout_width="386dp"
+        android:layout_height="33dp"
+        android:text="Questions"
+        android:textColor="@color/Blue"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="383dp"
+        android:layout_height="58dp"
+        android:text="Exit"
+        app:cornerRadius="12dp"
+        android:backgroundTint="@color/Blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ImageView
+        android:id="@+id/imgQ"
+        android:layout_width="377dp"
+        android:layout_height="353dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132"
+        app:srcCompat="@drawable/btnquiz" />
+
+    <Button
+        android:id="@+id/btnStartQ"
+        android:layout_width="383dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/Blue"
+        android:text="Start Quiz"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632" />
+
+    <TextView
+        android:id="@+id/txtNotice"
+        android:layout_width="151dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/Blue"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.518" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

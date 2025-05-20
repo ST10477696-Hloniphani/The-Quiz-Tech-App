@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+1.
+backiee, 2024. 3D Hexagonal White Geometry Pattern.
+[online] Available at:
+<https://backiee.com/wallpaper/3d-hexagonal-white-geometry-pattern/298857>
+[Accessed 02 May 2025].
+
+-->
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:background="@drawable/backgroundquiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+  <Button
+      android:id="@+id/btnExit"
+      android:layout_width="383dp"
+      android:layout_height="58dp"
+      android:text="Exit"
+      app:cornerRadius="12dp"
+      android:backgroundTint="@color/Blue"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.976" />
+
+
+  <ScrollView
+      android:id="@+id/scrollCorrections"
+      android:layout_width="357dp"
+      android:layout_height="474dp"
+      android:layout_margin="16dp"
+      android:fillViewport="true"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.509"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.135">
+
+    <TextView
+        android:id="@+id/txtpg4Correction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:scrollbars="vertical"
+        android:text="📋 Quiz Corrections\n\nThe operating system manages both hardware and software.\n➤ True\n\nSolid State Drives (SSDs) use spinning disks.\n➤ False (They use flash memory)\n\nThe IP address 127.0.0.1 identifies external devices.\n➤ False (It's the loopback address)\n\nIn programming, recursion is when a function calls itself.\n➤ True\n\nDeleting a file erases it permanently.\n➤ False (It's marked as deleted)\n\nThe BIOS is stored on a hard drive.\n➤ False (It's on ROM and runs before the OS)\n\nRAM loses data when the power is off.\n➤ True\n\nPython is compiled.\n➤ False (It's interpreted)\n\nA GPU handles graphics tasks.\n➤ True\n\nHTTPS is less secure than HTTP.\n➤ False (HTTPS is more secure)\n\nAll Android apps are written only in Java.\n➤ False (Kotlin and C++ also used)\n\nLatency refers to the data transmitted per second.\n➤ False (That's bandwidth)\n\nMachine code is the lowest-level code.\n➤ True\n\nCloud computing requires physical access.\n➤ False\n\nOpen-source software can be modified by anyone.\n➤ True\n\nIPv6 addresses are shorter than IPv4.\n➤ False (IPv6 is longer)\n\nAlgorithms always guarantee correct solutions.\n➤ False (Only a process)\n\nA compiler converts source code to machine code.\n➤ True\n\nFirmware is permanently embedded software.\n➤ True\n\nMultithreading uses separate CPUs for each app.\n➤ False (That's multiprocessing)"
+        android:textColor="@color/Blue"
+        android:textSize="14sp" />
+  </ScrollView>
+
+  <TextView
+      android:id="@+id/txtCorrection"
+      android:layout_width="122dp"
+      android:layout_height="33dp"
+      android:text="Corrections"
+      android:textColor="@color/Blue"
+      android:textSize="22sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.021" />
+
+  <Button
+      android:id="@+id/btnRetry"
+      android:layout_width="383dp"
+      android:layout_height="58dp"
+      android:text="Retry"
+      app:cornerRadius="12dp"
+      android:backgroundTint="@color/Blue"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.891" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>

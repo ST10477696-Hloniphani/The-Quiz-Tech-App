@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+1.
+backiee, 2024. 3D Hexagonal White Geometry Pattern.
+[online] Available at:
+<https://backiee.com/wallpaper/3d-hexagonal-white-geometry-pattern/298857>
+[Accessed 02 May 2025].
+
+2.
+siliconAngle.
+[online] Available at:
+<https://siliconangle.com/2022/04/15/welcome-tech-raises-30m-funding-grow-digital-platform-immigrants/>
+[Accessed 20 May 2025].
+
+-->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/backgroundquiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnClickHere"
+        android:layout_width="383dp"
+        android:layout_height="58dp"
+        android:text="Click Here"
+        app:cornerRadius="12dp"
+        android:backgroundTint="@color/Blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.891" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="383dp"
+        android:layout_height="58dp"
+        android:text="Exit"
+        app:cornerRadius="12dp"
+        android:backgroundTint="@color/Blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="367dp"
+        android:layout_height="36dp"
+        android:text="Welcome To QuizTech"
+        android:gravity="center"
+        android:textColor="@color/Blue"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <ScrollView
+        android:id="@+id/scrollCorrections"
+        android:layout_width="399dp"
+        android:layout_height="358dp"
+        android:layout_margin="16dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107">
+
+        <TextView
+            android:id="@+id/txtpg1Info"
+            android:layout_width="392dp"
+            android:layout_height="540dp"
+            android:text="📱 About This App\nWelcome to QuizTech – your go-to app for testing and improving your knowledge of basic software and hardware concepts! Whether you're a beginner looking to learn or someone brushing up on the fundamentals, this app is designed to make tech learning fun and engaging.\n\n✅ How This App Helps You\nBoost Your Tech Knowledge: Learn key concepts about everyday technology, from how software works to the basics of hardware components.\n\nInteractive Learning: Engage with multiple-choice questions that reinforce learning through repetition and challenge.\n\nSelf-Paced Progress: Practice at your own speed and track your improvement over time.\n\nGreat for All Levels: Whether you're a student, hobbyist, or just curious, our quiz content is accessible and informative.\n\nStart quizzing now and become more confident in understanding the tech that powers our world!"
+            android:textColor="@color/Blue"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.272"
+            tools:layout_editor_absoluteX="9dp"
+            tools:layout_editor_absoluteY="52dp" />
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="321dp"
+        android:layout_height="167dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751"
+        app:srcCompat="@drawable/welcome" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
